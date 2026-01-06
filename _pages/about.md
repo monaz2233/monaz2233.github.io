@@ -27,7 +27,9 @@ latest_posts:
 ---
 
 <div class="content-box">
+
   <h3>💻 Tech Stack & Interests</h3>
+
   <div style="margin-top: 15px;">
     <span class="tech-badge">Python</span>
     <span class="tech-badge">JavaScript</span>
@@ -43,8 +45,10 @@ latest_posts:
 </div>
 
 <div class="content-box" style="border-left-color: #d2b48c;"> 
+
   <p>개발자가 되기 위해 공부하고 있는 <strong>모나</strong>입니다.</p>
   <p>이 블로그에는 제가 공부하며 깊게 고민한 내용과 삽질의 기록들이 올라옵니다. 🛠️</p>
+  
 </div>
 
 <div class="content-box">

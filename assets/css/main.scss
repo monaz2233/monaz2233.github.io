@@ -22,4 +22,48 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons.scss",
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
+
+  /* --- 사용자 정의 스타일: 시에나 테마 입체 박스 --- */
+
+.profile-card {
+  background: #ffffff !important; 
+  padding: 40px;
+  border-radius: 24px;
+  border: 1px solid rgba(164, 90, 55, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+  margin-bottom: 30px;
+  display: block;
+  overflow: hidden;
+  color: #2c2420 !important; /* 글자색 고정 */
+}
+
+.content-box {
+  background: #ffffff !important;
+  padding: 30px;
+  border-radius: 15px;
+  border-left: 6px solid #a45a37 !important; /* 시에나 포인트 선 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  margin-bottom: 25px;
+  display: block;
+  color: #2c2420 !important;
+}
+
+.tech-badge {
+  display: inline-block !important;
+  background: #a45a37 !important; /* 시에나 배경 */
+  color: #ffffff !important;     /* 흰색 글자 */
+  padding: 5px 14px !important;
+  border-radius: 50px !important;
+  font-size: 0.85rem !important;
+  margin: 4px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 박스 안의 제목 색상 조절 */
+.content-box h2, .content-box h3 {
+  color: #a45a37 !important;
+  margin-top: 0;
+}
+  
 ;
