@@ -26,13 +26,30 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## 💻 Tech Stack & Interests
+<div class="content-box">
+  <h3>💻 Tech Stack & Interests</h3>
+  <div style="margin-top: 15px;">
+    <span class="tech-badge">Python</span>
+    <span class="tech-badge">JavaScript</span>
+    <span class="tech-badge">C++</span>
+    <span class="tech-badge">React</span>
+    <span class="tech-badge">FastAPI</span>
+    <span class="tech-badge">PyTorch</span>
+  </div>
+  
+  <ul style="margin-top: 20px; list-style-type: '📂 ';">
+    <li><strong>Interests:</strong> Machine Learning, Backend Engineering, Scalable Systems</li>
+  </ul>
+</div>
 
-- **Languages:** Python, JavaScript, C++
-- **Frameworks:** React, FastAPI, PyTorch
-- **Interests:** Machine Learning, Backend Engineering, Scalable Systems
+<div class="content-box" style="border-left-color: #d2b48c;"> 
+  <p>개발자가 되기 위해 공부하고 있는 <strong>모나</strong>입니다.</p>
+  <p>이 블로그에는 제가 공부하며 깊게 고민한 내용과 삽질의 기록들이 올라옵니다. 🛠️</p>
+</div>
 
----
-
-개발자가 되기 위해 공부하고 있는 **모나**입니다.  
-이 블로그에는 제가 공부하며 깊게 고민한 내용과 삽질의 기록들이 올라옵니다. 
+<div class="content-box">
+  {% if site.latest_posts.enabled -%}
+    <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
+    {% include latest_posts.liquid %}
+  {%- endif %}
+</div>
