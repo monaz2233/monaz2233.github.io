@@ -26,39 +26,47 @@ $max-content-width: {{ site.max_width | default: 800 }};
 
 /* --- Custom Theme: Sienna Style --- */
 
+/* --- Final Unified Sienna Style --- */
+
+/* 1. 프로필 카드: 상단에 독립적인 카드로 배치 */
 .profile-card {
   background: #ffffff !important; 
-  padding: 40px !important;
-  border-radius: 24px !important;
-  border: 1px solid rgba(164, 90, 55, 0.1) !important;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04) !important;
-  margin-bottom: 30px !important;
-  display: block !important;
-  overflow: hidden !important;
-  color: #2c2420 !important;
-}
-
-.content-box {
-  background: #ffffff !important;
   padding: 30px !important;
-  border-radius: 15px !important;
-  border-left: 6px solid #a45a37 !important; 
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
-  margin-bottom: 25px !important;
-  display: block !important;
-  color: #2c2420 !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(164, 90, 55, 0.1) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+  margin-bottom: 20px !important;
+  overflow: hidden;
 }
 
+/* 2. 메인 컨텐츠: 아래 모든 내용을 하나의 선으로 연결 */
+.main-content-wrapper {
+  background: #ffffff !important;
+  padding: 35px 40px !important;
+  border-radius: 20px !important;
+  /* 시에나 컬러 수직선이 길게 이어짐 */
+  border-left: 5px solid #a45a37 !important; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02) !important;
+  margin-top: 10px !important;
+}
+
+/* 섹션 사이의 구분선 (더 옅게) */
+.main-content-wrapper hr {
+  border: 0;
+  border-top: 1px solid rgba(164, 90, 55, 0.08) !important;
+  margin: 35px 0 !important;
+}
+
+/* 뱃지 스타일 */
 .tech-badge {
   display: inline-block !important;
   background: #a45a37 !important;
-  color: #ffffff !important;
-  padding: 5px 14px !important;
+  color: white !important;
+  padding: 4px 12px !important;
   border-radius: 50px !important;
   font-size: 0.85rem !important;
-  margin: 4px !important;
-  font-weight: 600 !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+  margin: 3px !important;
+  font-weight: 600;
 }
 
 .content-box h2, .content-box h3 {
