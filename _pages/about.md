@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <i class="fa-solid fa-envelope"></i> <a href="mailto:busymonaz@gmail.com">내이메일@주소.com</a>
+subtitle: <a href="#">My Portfolio</a>
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Inchoen, South Korea</p>
-    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:busymonaz@gmail.com">내이메일@주소.com</a></p>
+    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:busymonaz@gmail.com">busymonaz@gmail.com</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
