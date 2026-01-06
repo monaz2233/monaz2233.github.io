@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="main-content-wrapper" markdown="1">
+<div class="main-content-wrapper">
 
 ### 🛠 Tech Stack & Interests
 
