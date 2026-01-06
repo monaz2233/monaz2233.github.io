@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="main-content-wrapper">
+<div class="main-content-wrapper" markdown="1">
 
 ### 🛠 Tech Stack & Interests
 
@@ -51,14 +51,6 @@ latest_posts:
 이 공간에는 제가 공부하며 마주한 기술적 고민들과 그 과정을 해결해 나간 삽질의 기록들을 차곡차곡 쌓아가고 있습니다. 🛠️
 
 ---
-
-### 📮 Latest Posts
-
-{% if site.latest_posts.enabled -%}
-  <div style="margin-top: 30px;">
-    {% include latest_posts.liquid %}
-  </div>
-{%- endif %}
 
 </div>
 
