@@ -34,7 +34,8 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+// $code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba(139, 69, 19, 0.05); // 브라운 톤의 아주 연한 배경
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
