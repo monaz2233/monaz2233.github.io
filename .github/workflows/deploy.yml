@@ -110,8 +110,8 @@
 name: deploy
 on:
   push:
-    branches: ["main", "master"] # 내 브랜치가 무엇이든 대응
-  workflow_dispatch: # 수동으로 실행 버튼을 만듦
+    branches: ["main", "master"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -124,16 +124,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.2'
-          bundler-cache: true
-      - name: Install & Build
+          bundler-cache: false
+
+      - name: Install dependencies
         run: |
+          gem install bundler
           bundle install
-          bundle exec jekyll build
-      - name: Upload
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Deploy
+
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
