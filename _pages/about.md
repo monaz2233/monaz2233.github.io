@@ -28,11 +28,9 @@ latest_posts:
 
 <div class="main-content-wrapper">
 
-## 🛠 Tech Stack & Interests
+### 🛠 Tech Stack & Interests
 
-전문성을 기르기 위해 주로 사용하는 기술들입니다.
-
-<div style="margin: 20px 0;">
+<div style="margin: 25px 0;">
   <span class="tech-badge">Python</span>
   <span class="tech-badge">JavaScript</span>
   <span class="tech-badge">C++</span>
@@ -45,7 +43,7 @@ latest_posts:
 
 ---
 
-## ✍️ About Me
+### ✍️ About Me
 
 개발자가 되기 위해 끊임없이 공부하고 고민하는 **모나**입니다.  
 단순히 코드를 짜는 것을 넘어, 효율적인 시스템과 사용자 경험에 대해 깊이 있게 탐구합니다.
@@ -54,9 +52,7 @@ latest_posts:
 
 ---
 
-## 📮 Latest Posts
-
-블로그의 최신 글들을 확인해 보세요.
+### 📮 Latest Posts
 
 {% if site.latest_posts.enabled -%}
   <div style="margin-top: 30px;">
