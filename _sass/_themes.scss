@@ -6,20 +6,20 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
+  --global-bg-color: #fdfaf7;
+  --global-code-bg-color: rgba(164, 90, 55, 0.05);
+  --global-text-color: #2c2420;
+  --global-text-color-light: #70635c;
   // 여기서 purple를 blue로 변경하였음 이걸 고급진 갈색으로 변경
   --global-theme-color: #a45a37;
   --global-hover-color: #85442a;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-footer-bg-color: #3d2b1f;
+  --global-footer-text-color: #e2d5cc;
+  --global-footer-link-color: #ffffff;
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #f6eee6;
   //#{$red-color-dark};
   --global-highlight-color: #bc6c4d;
   --global-back-to-top-bg-color: rgba(
